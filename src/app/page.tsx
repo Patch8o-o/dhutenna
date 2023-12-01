@@ -1,11 +1,14 @@
-import { css } from '@linaria/core';
+import { css } from "@linaria/core";
 
-import Board from './components/Board';
+import Board from "./components/Board";
 
 
 export default function Home() {
   const styles = {
     container: css`
+      font-family: hiragino-kaku-gothic-pron, sans-serif;
+      font-weight: 300;
+      font-style: normal;
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -40,7 +43,7 @@ export default function Home() {
     <div className={styles.container}>
       <h1 className={styles.title}>hello</h1>
       <div>
-        <Board main='hoge' sub='sub' />
+        <Board main="hoge" sub="sub" />
       </div>
     </div>
   );
