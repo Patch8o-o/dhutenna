@@ -7,9 +7,6 @@ import Board from "./components/Board";
 export default function Home() {
   const styles = {
     container: css`
-      font-family: hiragino-kaku-gothic-pron, sans-serif;
-      font-weight: 300;
-      font-style: normal;
       display: flex;
       flex-direction: column;
       align-items: center;

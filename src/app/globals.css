@@ -86,6 +86,14 @@ body {
   overflow-x: hidden;
 }
 
+html {
+  visibility: hidden;
+}
+
+html.wf-active {
+  visibility: visible;
+}
+
 /* body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
